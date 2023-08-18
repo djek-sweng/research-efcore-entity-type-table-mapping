@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <Target Name="NetClean" BeforeTargets="Clean">
+    <Message Text="Deleting directories and files..."/>
+    <RemoveDir Directories="bin"/>
+    <RemoveDir Directories="obj"/>
+    <Delete Files="db_tpt.sqlite" />
+  </Target>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EFCore.TableMapping.Shared\EFCore.TableMapping.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

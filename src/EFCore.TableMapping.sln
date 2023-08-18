@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.TableMapping.Shared", "EFCore.TableMapping.Shared\EFCore.TableMapping.Shared.csproj", "{E1F92330-1F3D-445A-9148-FAF745BD8B78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.TableMapping.WebApi.Tph", "EFCore.TableMapping.WebApi.Tph\EFCore.TableMapping.WebApi.Tph.csproj", "{B6B55E48-907F-49CC-A72F-FB468BB56D5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.TableMapping.WebApi.Tpc", "EFCore.TableMapping.WebApi.Tpc\EFCore.TableMapping.WebApi.Tpc.csproj", "{EC03EC09-66AD-4727-826D-A72DCF691D96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.TableMapping.WebApi.Tpt", "EFCore.TableMapping.WebApi.Tpt\EFCore.TableMapping.WebApi.Tpt.csproj", "{4AE2EACC-A4CB-42ED-8651-DCEF99564D2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1F92330-1F3D-445A-9148-FAF745BD8B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F92330-1F3D-445A-9148-FAF745BD8B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1F92330-1F3D-445A-9148-FAF745BD8B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1F92330-1F3D-445A-9148-FAF745BD8B78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6B55E48-907F-49CC-A72F-FB468BB56D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B55E48-907F-49CC-A72F-FB468BB56D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B55E48-907F-49CC-A72F-FB468BB56D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B55E48-907F-49CC-A72F-FB468BB56D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC03EC09-66AD-4727-826D-A72DCF691D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC03EC09-66AD-4727-826D-A72DCF691D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC03EC09-66AD-4727-826D-A72DCF691D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC03EC09-66AD-4727-826D-A72DCF691D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AE2EACC-A4CB-42ED-8651-DCEF99564D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE2EACC-A4CB-42ED-8651-DCEF99564D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE2EACC-A4CB-42ED-8651-DCEF99564D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE2EACC-A4CB-42ED-8651-DCEF99564D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

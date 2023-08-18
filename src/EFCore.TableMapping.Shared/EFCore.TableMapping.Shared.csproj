@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Target Name="NetClean" BeforeTargets="Clean">
+    <Message Text="Deleting directories and files..."/>
+    <RemoveDir Directories="bin"/>
+    <RemoveDir Directories="obj"/>
+  </Target>
+
+</Project>
