@@ -16,9 +16,9 @@ For detailed information visit:
 
 In this article we will use the following sample entity-type hierarchy.
 
-<p align="center">
-    <img src="./doc/uml/blog-entity-type-hierarchy.drawio.svg"/>
-</p>
+<div align="center">
+    <img width="200px" src="./doc/img/blog-entity-type-hierarchy.png"/>
+</div>
 
 You can browse the entity-type and DbContext classes here [`Blog`](./src/EFCore.TableMapping.Shared/Entities/Blog.cs), [`RssBlog`](./src/EFCore.TableMapping.Shared/Entities/RssBlog.cs) and [`RootDbContextBase`](./src/EFCore.TableMapping.Shared/Database/RootDbContextBase.cs).
 
@@ -100,9 +100,9 @@ public abstract class RootDbContextBase : DbContext, IRootDbContext
 
 TPH table mapping:
 
-<p align="center">
-    <img src="./doc/uml/blog-db-tph.drawio.svg"/>
-</p>
+<div align="center">
+    <img src="./doc/img/blog-db-tph.png"/>
+</div>
 
 The following entity-type configuration is valid for TPH table mapping. See class [`AppDbContextTph`](./src/EFCore.TableMapping.WebApi.Tph/Database/AppDbContextTph.cs).
 
@@ -132,13 +132,19 @@ public class AppDbContextTph : RootDbContextBase
 }
 ```
 
+TPH sample table data:
+
+<div align="center">
+    <img src="./doc/img/blog-db-tph-sample-data.png"/>
+</div>
+
 #### **Table-Per-Type Mapping and Configuration**
 
 TPT table mapping:
 
-<p align="center">
-    <img src="./doc/uml/blog-db-tpt.drawio.svg"/>
-</p>
+<div align="center">
+    <img src="./doc/img/blog-db-tpt.png"/>
+</div>
 
 The following entity-type configuration is valid for TPT table mapping. See class [`AppDbContextTpt`](./src/EFCore.TableMapping.WebApi.Tpt/Database/AppDbContextTpt.cs).
 
@@ -166,13 +172,22 @@ public class AppDbContextTpt : RootDbContextBase
 }
 ```
 
+TPT sample table data:
+
+<div align="center">
+    <img src="./doc/img/blog-db-tpt-sample-data-1.png"/>
+</div>
+<div align="center">
+    <img src="./doc/img/blog-db-tpt-sample-data-2.png"/>
+</div>
+
 #### **Table-Per-Concrete Mapping and Configuration**
 
 TPC table mapping:
 
-<p align="center">
-    <img src="./doc/uml/blog-db-tpc.drawio.svg"/>
-</p>
+<div align="center">
+    <img src="./doc/img/blog-db-tpt.png"/>
+</div>
 
 The following entity-type configuration is valid for TPC table mapping. See class [`AppDbContextTpc`](./src/EFCore.TableMapping.WebApi.Tpc/Database/AppDbContextTpc.cs).
 
@@ -199,6 +214,15 @@ public class AppDbContextTpc : RootDbContextBase
     }
 }
 ```
+
+TPC sample table data:
+
+<div align="center">
+    <img src="./doc/img/blog-db-tpc-sample-data-1.png"/>
+</div>
+<div align="center">
+    <img src="./doc/img/blog-db-tpc-sample-data-2.png"/>
+</div>
 
 #### **Run web-API Applications**
 
