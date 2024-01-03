@@ -244,21 +244,13 @@ http://localhost:5102/swagger
 #### **Toolchain Requirements and Versions**
 
 ```sh
-$ dotnet --info
-    .NET SDK:
-    Version: 7.0.306
-
-    .NET SDKs installed:
-    7.0.306
-
-    .NET runtimes installed:
-    Microsoft.AspNetCore.App 7.0.9
-    Microsoft.NETCore.App 7.0.9
+$ dotnet --version
+    8.0.100
 
 $ dotnet ef --version
     Entity Framework Core .NET Command-line Tools
-    7.0.10
+    8.0.0
 
 $ sqlite3 --version
-    3.39.5
+    3.43.2
 ```
