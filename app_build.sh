@@ -3,5 +3,3 @@
 SLN_FILE="./src/EFCore.TableMapping.sln"
 
 dotnet build "$SLN_FILE"
-
-exit 0

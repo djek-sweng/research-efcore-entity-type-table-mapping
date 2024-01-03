@@ -1,14 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
+  <ItemGroup Label="NuGet.Packages">
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="[6.5.0, )" />
+  </ItemGroup>
+
+  <ItemGroup Label="Project.References">
+    <ProjectReference Include="..\EFCore.TableMapping.Shared\EFCore.TableMapping.Shared.csproj" />
+  </ItemGroup>
+
   <Target Name="NetClean" BeforeTargets="Clean">
     <Message Text="Deleting directories and files..."/>
     <RemoveDir Directories="bin"/>
     <RemoveDir Directories="obj"/>
     <Delete Files="db_tph.sqlite" />
   </Target>
-
-  <ItemGroup>
-    <ProjectReference Include="..\EFCore.TableMapping.Shared\EFCore.TableMapping.Shared.csproj" />
-  </ItemGroup>
 
 </Project>
